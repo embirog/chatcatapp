@@ -1,11 +1,23 @@
+// {
+// 	"dbURL":"mongodb://edmil:edmil@ds035735.mongolab.com:35735/chatcat",
+// 	"sessionSecret":"edededededededededed",
+// 	"fb": {
+// 		"appID":"1676371655951379",
+// 		"appSecret":"e54f29353a88a8691cf02fb0b09d2a90",
+// 		"callbackURL":"http://localhost:3000/auth/facebook/callback"
+		
+// 	},
+// 	"host":"http://localhost:3000"
+// }
 {
 	"dbURL":"mongodb://edmil:edmil@ds035735.mongolab.com:35735/chatcat",
 	"sessionSecret":"edededededededededed",
 	"fb": {
 		"appID":"1676371655951379",
 		"appSecret":"e54f29353a88a8691cf02fb0b09d2a90",
-		"callbackURL":"http://localhost:3000/auth/facebook/callback"
+		// "callbackURL":"http://localhost:3000/auth/facebook/callback"
+		"callbackURL":"https://sheltered-castle-3081.herokuapp.com/auth/facebook/callback"
 		
 	},
-	"host":"http://localhost:3000"
+	"host":"https://sheltered-castle-3081.herokuapp.com"
 }
